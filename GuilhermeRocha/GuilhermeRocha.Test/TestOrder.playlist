@@ -1,0 +1,66 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="GuilhermeRocha.Test" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="GuilhermeRocha.Test" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="UserControllerTest" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="GuilhermeRocha.Test.UserControllerTest.Test_1" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="GuilhermeRocha.Test.UserControllerTest.Test_1" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="GuilhermeRocha.Test.UserControllerTest.Test_2" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="GuilhermeRocha.Test.UserControllerTest.Test_2" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="GuilhermeRocha.Test.UserControllerTest.Test_3" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="GuilhermeRocha.Test.UserControllerTest.Test_3" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="GuilhermeRocha.Test.UserControllerTest.Test_4" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="GuilhermeRocha.Test.UserControllerTest.Test_4" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="GuilhermeRocha.Test.UserControllerTest.Test_5" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="GuilhermeRocha.Test.UserControllerTest.Test_5" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="GuilhermeRocha.Test.UserControllerTest.Test_6" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="GuilhermeRocha.Test.UserControllerTest.Test_6" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="GuilhermeRocha.Test.UserControllerTest.Test_7" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="GuilhermeRocha.Test.UserControllerTest.Test_7" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>

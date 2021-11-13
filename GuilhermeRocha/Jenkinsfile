@@ -1,0 +1,96 @@
+#! groovy
+
+@Library('beubi-jenkins-libraries') _
+
+pipeline {
+    agent none
+    environment {
+        DOCKER_SERVER_IP = 'docker.wst.pt'
+        SSH_USERNAME = 'ubuntu'
+        TEAMS_CHANNEL_WEBHOOK = credentials('zero_teams_dev_channel_webhook')
+        REPO_FULLNAME = 'beubi/zerodesperdicio'
+    }
+    options {
+        ansiColor('xterm')
+        timeout(time: 2, unit: 'HOURS')
+        skipStagesAfterUnstable()
+    }
+    stages {
+        stage('Test Migrations') {
+            when {
+                beforeAgent true
+                expression { env.JOB_BASE_NAME != 'ZERO_Deploy_To_Staging' }
+            }
+            agent { label 'docker' }
+            steps {
+                script {
+                    // Build images
+                    sh script: 'docker-compose build'
+                    // Restore dependencies to avoid excessive run time of the next commands
+                    sh script: 'docker-compose run --entrypoint "libman restore" dotnet'
+                    // List migrations
+                    sh script: 'docker-compose run dotnet ef migrations list'
+                    // Run migrations
+                    sh script: 'docker-compose run dotnet ef database update'
+                }
+            }
+            post {
+                cleanup {
+                    sh script: 'docker-compose --no-ansi down --remove-orphans --volumes || true', label: 'Docker context cleanup'
+                }
+            }
+        }
+        stage('Deploy to Staging') {
+            when {
+                beforeAgent true
+                environment name: 'JOB_BASE_NAME', value: 'ZERO_Deploy_To_Staging'
+            }
+            agent { label 'ssh' }
+            steps {
+                withCredentials([
+                    string(credentialsId: 'knownhost_dockerserver', variable: 'DOCKERSERVER_KNOWN_HOST')
+                ]) {
+                    script {
+                        sh script: 'echo "$DOCKERSERVER_KNOWN_HOST" >> ~/.ssh/known_hosts'
+                        sshagent (['privatekey_dockerserver']) {
+                            // Stop app containers
+                            sh script: 'ssh $SSH_USERNAME@$DOCKER_SERVER_IP "cd zerodesperdicio/ && docker-compose -f docker-compose.yml -f docker-compose-staging.yml down"'
+
+                            // Update code
+                            sh script: 'ssh $SSH_USERNAME@$DOCKER_SERVER_IP "cd zerodesperdicio/ && git pull"'
+
+                            // Update assets
+                            sh script: 'ssh $SSH_USERNAME@$DOCKER_SERVER_IP "cd zerodesperdicio/ && docker-compose run --rm --entrypoint \\"libman restore --verbosity quiet\\" dotnet"'
+
+                            // Run migrations
+                            sh script: 'ssh $SSH_USERNAME@$DOCKER_SERVER_IP "cd zerodesperdicio/ && docker-compose run --rm dotnet ef database update"'
+
+                            // Recreate app container
+                            sh script: 'ssh $SSH_USERNAME@$DOCKER_SERVER_IP "cd zerodesperdicio/ && docker-compose -f docker-compose-staging.yml up --build -d"'
+                        }
+                    }
+                }
+            }
+            post {
+                success {
+                    script {
+                        pipeline_notifications.notifyBuildStatusToTeams()
+                    }
+                }
+                aborted {
+                    script {
+                        unstable 'The build was aborted, notifying...'
+                        pipeline_notifications.notifyBuildStatusToTeams()
+                        pipeline_notifications.notifyBuildStatusByEmail()
+                    }
+                }
+                unsuccessful {
+                    script {
+                        pipeline_notifications.notifyBuildStatusToTeams()
+                        pipeline_notifications.notifyBuildStatusByEmail()
+                    }
+                }
+            }
+        }
+    }
+}

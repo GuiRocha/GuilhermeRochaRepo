@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2261a552-35f4-49b0-af96-8d7e2c76e519": {
+      "ProjectGuid": "2261a552-35f4-49b0-af96-8d7e2c76e519",
+      "DisplayName": "GuilhermeRocha.API",
+      "ColorIndex": 0
+    },
+    "cf9de5bc-415a-4c68-84bb-9d21d4daa50b": {
+      "ProjectGuid": "cf9de5bc-415a-4c68-84bb-9d21d4daa50b",
+      "DisplayName": "GuilhermeRocha.Infrastructure",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "e7c046de-33b8-4308-a825-718d7d80b4be": {
+      "ProjectGuid": "e7c046de-33b8-4308-a825-718d7d80b4be",
+      "DisplayName": "GuilhermeRocha.Test",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

@@ -1,0 +1,9 @@
+C:\Users\GuilhermeRocha\Desktop\GuilhermeRocha\GuilhermeRocha.Infrastructure\bin\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.deps.json
+C:\Users\GuilhermeRocha\Desktop\GuilhermeRocha\GuilhermeRocha.Infrastructure\bin\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.dll
+C:\Users\GuilhermeRocha\Desktop\GuilhermeRocha\GuilhermeRocha.Infrastructure\bin\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.pdb
+C:\Users\GuilhermeRocha\Desktop\GuilhermeRocha\GuilhermeRocha.Infrastructure\obj\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GuilhermeRocha\Desktop\GuilhermeRocha\GuilhermeRocha.Infrastructure\obj\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\GuilhermeRocha\Desktop\GuilhermeRocha\GuilhermeRocha.Infrastructure\obj\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.AssemblyInfo.cs
+C:\Users\GuilhermeRocha\Desktop\GuilhermeRocha\GuilhermeRocha.Infrastructure\obj\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\GuilhermeRocha\Desktop\GuilhermeRocha\GuilhermeRocha.Infrastructure\obj\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.dll
+C:\Users\GuilhermeRocha\Desktop\GuilhermeRocha\GuilhermeRocha.Infrastructure\obj\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.pdb
