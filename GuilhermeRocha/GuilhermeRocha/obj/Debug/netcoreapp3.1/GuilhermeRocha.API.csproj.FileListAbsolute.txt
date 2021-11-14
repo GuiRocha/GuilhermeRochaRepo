@@ -146,3 +146,5 @@ C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha\obj\Debug\netcoreapp3.1
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha\obj\Debug\netcoreapp3.1\GuilhermeRocha.API.dll
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha\obj\Debug\netcoreapp3.1\GuilhermeRocha.API.pdb
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha\obj\Debug\netcoreapp3.1\GuilhermeRocha.API.genruntimeconfig.cache
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha\obj\Debug\netcoreapp3.1\staticwebassets\GuilhermeRocha.API.StaticWebAssets.xml
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha\obj\Debug\netcoreapp3.1\scopedcss\bundle\GuilhermeRocha.API.styles.css
