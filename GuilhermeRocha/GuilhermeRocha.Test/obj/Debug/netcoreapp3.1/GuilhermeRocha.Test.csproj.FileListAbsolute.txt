@@ -165,10 +165,6 @@ C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcorea
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
-C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.API.deps.json
-C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.API.runtimeconfig.json
-C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.API.runtimeconfig.dev.json
-C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.API.exe
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.Test.deps.json
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.Test.runtimeconfig.json
@@ -303,9 +299,7 @@ C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcorea
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.API.dll
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.dll
-C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.API.pdb
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.pdb
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\obj\Debug\netcoreapp3.1\GuilhermeRocha.Test.csproj.AssemblyReference.cache
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\obj\Debug\netcoreapp3.1\GuilhermeRocha.Test.GeneratedMSBuildEditorConfig.editorconfig
@@ -316,3 +310,15 @@ C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\obj\Debug\netcorea
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\obj\Debug\netcoreapp3.1\GuilhermeRocha.Test.dll
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\obj\Debug\netcoreapp3.1\GuilhermeRocha.Test.pdb
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\obj\Debug\netcoreapp3.1\GuilhermeRocha.Test.genruntimeconfig.cache
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.deps.json
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.runtimeconfig.json
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.runtimeconfig.dev.json
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.exe
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.dll
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.pdb
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.API.deps.json
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.API.runtimeconfig.json
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.API.runtimeconfig.dev.json
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.API.exe
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.API.dll
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Test\bin\Debug\netcoreapp3.1\GuilhermeRocha.API.pdb

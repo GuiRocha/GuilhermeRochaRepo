@@ -16,4 +16,3 @@ C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Infrastructure\obj\Debu
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Infrastructure\obj\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Infrastructure\obj\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.dll
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Infrastructure\obj\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.pdb
-C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Infrastructure\obj\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.csproj.AssemblyReference.cache

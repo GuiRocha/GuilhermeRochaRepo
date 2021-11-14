@@ -6208,9 +6208,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.API.csproj",
-      "projectName": "GuilhermeRocha.API",
-      "projectPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.API.csproj",
+      "projectUniqueName": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.csproj",
+      "projectName": "GuilhermeRocha",
+      "projectPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.csproj",
       "packagesPath": "C:\\Users\\GuilhermeRocha\\.nuget\\packages\\",
       "outputPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\obj\\",
       "projectStyle": "PackageReference",
@@ -6298,7 +6298,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
       }
     }
   }

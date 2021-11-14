@@ -2842,6 +2842,28 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "GuilhermeRocha/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BCrypt.Net-Next": "4.0.2",
+          "GuilhermeRocha.Infrastructure": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.AzureAD.UI": "3.1.19",
+          "Microsoft.EntityFrameworkCore": "5.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.12",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.14.0",
+          "Swashbuckle.AspNetCore": "6.2.3"
+        },
+        "compile": {
+          "bin/placeholder/GuilhermeRocha.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GuilhermeRocha.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "GuilhermeRocha.API/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -9257,10 +9279,15 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "GuilhermeRocha/1.0.0": {
+      "type": "project",
+      "path": "../GuilhermeRocha/GuilhermeRocha.csproj",
+      "msbuildProject": "../GuilhermeRocha/GuilhermeRocha.csproj"
+    },
     "GuilhermeRocha.API/1.0.0": {
       "type": "project",
-      "path": "../GuilhermeRocha/GuilhermeRocha.API.csproj",
-      "msbuildProject": "../GuilhermeRocha/GuilhermeRocha.API.csproj"
+      "path": "../GuilhermeRocha.API/GuilhermeRocha.API.csproj",
+      "msbuildProject": "../GuilhermeRocha.API/GuilhermeRocha.API.csproj"
     },
     "GuilhermeRocha.Infrastructure/1.0.0": {
       "type": "project",
@@ -9270,6 +9297,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "GuilhermeRocha >= 1.0.0",
       "GuilhermeRocha.API >= 1.0.0",
       "Microsoft.AspNetCore.Hosting >= 2.2.7",
       "Microsoft.AspNetCore.TestHost >= 3.1.21",
@@ -9311,8 +9339,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.API.csproj": {
-              "projectPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.API.csproj"
+            "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.API\\GuilhermeRocha.API.csproj": {
+              "projectPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.API\\GuilhermeRocha.API.csproj"
+            },
+            "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.csproj": {
+              "projectPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.csproj"
             }
           }
         }
@@ -9371,7 +9402,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
       }
     }
   }

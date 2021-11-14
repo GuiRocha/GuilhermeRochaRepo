@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FkLl2nq9EH93+NmCtZ9TKPHyJSzDdG5P+Ld6/6wwRQfNFK4kfhskXUVa8LMnbH115qemdDrZcLcqpE1Bedlf0g==",
+  "dgSpecHash": "EbqqNhEmvMgXWbOYwbrzn3cdzMer3ZtZDQ+fkY3bJk/zzuscF8GgS1aEPPlBTBC/olbQzAzg7hbxrXIseMV5lg==",
   "success": true,
-  "projectFilePath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.API.csproj",
+  "projectFilePath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GuilhermeRocha\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\GuilhermeRocha\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

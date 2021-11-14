@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "GuilhermeRocha.Test/1.0.0": {
         "dependencies": {
+          "GuilhermeRocha": "1.0.0",
           "GuilhermeRocha.API": "1.0.0",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "Microsoft.AspNetCore.TestHost": "3.1.21",
@@ -1863,6 +1864,20 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
+      "GuilhermeRocha/1.0.0": {
+        "dependencies": {
+          "BCrypt.Net-Next": "4.0.2",
+          "GuilhermeRocha.Infrastructure": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.AzureAD.UI": "3.1.19",
+          "Microsoft.EntityFrameworkCore": "5.0.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.12",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.14.0",
+          "Swashbuckle.AspNetCore": "6.2.3"
+        },
+        "runtime": {
+          "GuilhermeRocha.dll": {}
+        }
+      },
       "GuilhermeRocha.API/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Next": "4.0.2",
@@ -3098,6 +3113,11 @@
       "sha512": "sha512-kZZSmOmKA8OBlAJaquPXnJJLM9RwQ27H7BMVqfMLUcTi9xHinWGJiWksa3D4NEtz0wZ/nxd2mogObvBgJKCRhQ==",
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
+    },
+    "GuilhermeRocha/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "GuilhermeRocha.API/1.0.0": {
       "type": "project",
