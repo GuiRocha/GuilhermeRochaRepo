@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gbRVdDROqQ9dhaCaPE/YWlOkHtbH+DTesu+6d7yzI3RTrsLbPqLT2kBBpokNhxpi2D6UCzdlF6EiPdj8vDL7oQ==",
+  "dgSpecHash": "YQR17nQnNJzAfQAseYZ+N4XSYAY6ftn5SI0oh7AEHmGeTFpo8ZeoBKIFQj7hXD81eZsPro1bTZJJRWLqb7dX8w==",
   "success": true,
   "projectFilePath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.API.csproj",
   "expectedPackageFiles": [
@@ -113,16 +113,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1602",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "GuilhermeRocha.Infrastructure does not provide an inclusive lower bound for dependency Microsoft.EntityFrameworkCore.Relational. An approximate best match of Microsoft.EntityFrameworkCore.Relational 1.0.0 was resolved.",
-      "libraryId": "Microsoft.EntityFrameworkCore.Relational",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }
