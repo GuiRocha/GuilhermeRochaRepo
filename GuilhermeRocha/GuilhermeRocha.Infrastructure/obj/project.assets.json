@@ -5665,23 +5665,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GuilhermeRocha\\.nuget\\packages\\": {},
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GuilhermeRocha\\Desktop\\GuilhermeRocha\\GuilhermeRocha.Infrastructure\\GuilhermeRocha.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.Infrastructure\\GuilhermeRocha.Infrastructure.csproj",
       "projectName": "GuilhermeRocha.Infrastructure",
-      "projectPath": "C:\\Users\\GuilhermeRocha\\Desktop\\GuilhermeRocha\\GuilhermeRocha.Infrastructure\\GuilhermeRocha.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\GuilhermeRocha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GuilhermeRocha\\Desktop\\GuilhermeRocha\\GuilhermeRocha.Infrastructure\\obj\\",
+      "projectPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.Infrastructure\\GuilhermeRocha.Infrastructure.csproj",
+      "packagesPath": "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\GuilhermeRocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5689,8 +5689,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/AnePerf-VDF/_packaging/AnePerf.Libraries/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {

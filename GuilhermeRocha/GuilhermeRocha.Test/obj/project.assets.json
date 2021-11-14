@@ -9280,23 +9280,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GuilhermeRocha\\.nuget\\packages\\": {},
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GuilhermeRocha\\Desktop\\GuilhermeRocha\\GuilhermeRocha.Test\\GuilhermeRocha.Test.csproj",
+      "projectUniqueName": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.Test\\GuilhermeRocha.Test.csproj",
       "projectName": "GuilhermeRocha.Test",
-      "projectPath": "C:\\Users\\GuilhermeRocha\\Desktop\\GuilhermeRocha\\GuilhermeRocha.Test\\GuilhermeRocha.Test.csproj",
-      "packagesPath": "C:\\Users\\GuilhermeRocha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GuilhermeRocha\\Desktop\\GuilhermeRocha\\GuilhermeRocha.Test\\obj\\",
+      "projectPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.Test\\GuilhermeRocha.Test.csproj",
+      "packagesPath": "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\GuilhermeRocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9304,15 +9304,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/AnePerf-VDF/_packaging/AnePerf.Libraries/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\GuilhermeRocha\\Desktop\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.API.csproj": {
-              "projectPath": "C:\\Users\\GuilhermeRocha\\Desktop\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.API.csproj"
+            "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.API.csproj": {
+              "projectPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha\\GuilhermeRocha.API.csproj"
             }
           }
         }
