@@ -19,18 +19,18 @@ RUN dotnet restore
 COPY . .
 
 WORKDIR "/src/GuilhermeRocha.API"
-RUN dotnet build -c Release -o /app/build
+RUN dotnet build -c Release -o /app
 
 WORKDIR "/src/GuilhermeRocha.Infrastructure"
-RUN dotnet build -c Release -o /app/build
+RUN dotnet build -c Release -o /app
 
 WORKDIR "/src/GuilhermeRocha.Test"
-RUN dotnet build -c Release -o /app/build
+RUN dotnet build -c Release -o /app
 
 FROM build AS publish
-RUN dotnet publish -c Release -o /app/publish
+RUN dotnet publish -c Release -o /app 
 
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "GuilhermeRocha.API.dll"]
