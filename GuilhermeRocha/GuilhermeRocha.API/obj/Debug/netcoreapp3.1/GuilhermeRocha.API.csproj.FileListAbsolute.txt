@@ -72,3 +72,7 @@ C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.API\obj\Debug\netcoreap
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.API\obj\Debug\netcoreapp3.1\GuilhermeRocha.API.pdb
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.API\obj\Debug\netcoreapp3.1\GuilhermeRocha.API.genruntimeconfig.cache
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.API\obj\Debug\netcoreapp3.1\GuilhermeRocha.API.csproj.CopyComplete
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.API\bin\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.deps.json
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.API\bin\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.runtimeconfig.json
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.API\bin\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.runtimeconfig.dev.json
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.API\bin\Debug\netcoreapp3.1\GuilhermeRocha.Infrastructure.exe

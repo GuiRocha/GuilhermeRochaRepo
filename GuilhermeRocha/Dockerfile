@@ -14,7 +14,6 @@ COPY GuilhermeRocha.sln ./
 COPY GuilhermeRocha.API/*.csproj ./GuilhermeRocha.API/
 COPY GuilhermeRocha.Infrastructure/*.csproj ./GuilhermeRocha.Infrastructure/
 COPY GuilhermeRocha.Test/*.csproj ./GuilhermeRocha.Test/
-COPY docker-compose.dcproj ./
 
 RUN dotnet restore 
 COPY . .
