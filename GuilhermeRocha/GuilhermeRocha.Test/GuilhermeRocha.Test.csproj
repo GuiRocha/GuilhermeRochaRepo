@@ -23,7 +23,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GuilhermeRocha.API\GuilhermeRocha.API.csproj" />
-    <ProjectReference Include="..\GuilhermeRocha\GuilhermeRocha.csproj" />
   </ItemGroup>
 
 </Project>

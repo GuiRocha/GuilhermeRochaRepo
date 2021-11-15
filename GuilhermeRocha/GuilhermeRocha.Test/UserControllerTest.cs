@@ -12,6 +12,7 @@ using static System.Net.Mime.MediaTypeNames;
 using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
+using GuilhermeRocha.API;
 
 namespace GuilhermeRocha.Test
 {

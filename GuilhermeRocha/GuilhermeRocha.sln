@@ -11,9 +11,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuilhermeRocha.Test", "Guil
 		{E8CB7FE7-0C48-4ECC-B8FE-A51E79908A1D} = {E8CB7FE7-0C48-4ECC-B8FE-A51E79908A1D}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuilhermeRocha.API", "GuilhermeRocha.API\GuilhermeRocha.API.csproj", "{E8CB7FE7-0C48-4ECC-B8FE-A51E79908A1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuilhermeRocha.API", "GuilhermeRocha.API\GuilhermeRocha.API.csproj", "{E8CB7FE7-0C48-4ECC-B8FE-A51E79908A1D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{CF9DE5BC-415A-4C68-84BB-9D21D4DAA50B} = {CF9DE5BC-415A-4C68-84BB-9D21D4DAA50B}
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5A735CC0-754C-4E9C-A8CE-71998181CDCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CA04D87C-ADE4-4150-9F72-7BE6ABF3AB12}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
 Global
@@ -34,6 +41,10 @@ Global
 		{E8CB7FE7-0C48-4ECC-B8FE-A51E79908A1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8CB7FE7-0C48-4ECC-B8FE-A51E79908A1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8CB7FE7-0C48-4ECC-B8FE-A51E79908A1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A735CC0-754C-4E9C-A8CE-71998181CDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A735CC0-754C-4E9C-A8CE-71998181CDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A735CC0-754C-4E9C-A8CE-71998181CDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A735CC0-754C-4E9C-A8CE-71998181CDCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

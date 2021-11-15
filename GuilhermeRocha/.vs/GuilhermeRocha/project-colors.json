@@ -3,7 +3,7 @@
   "ProjectMap": {
     "2261a552-35f4-49b0-af96-8d7e2c76e519": {
       "ProjectGuid": "2261a552-35f4-49b0-af96-8d7e2c76e519",
-      "DisplayName": "GuilhermeRocha.API",
+      "DisplayName": "GuilhermeRocha",
       "ColorIndex": 0
     },
     "cf9de5bc-415a-4c68-84bb-9d21d4daa50b": {
@@ -20,7 +20,17 @@
       "ProjectGuid": "e7c046de-33b8-4308-a825-718d7d80b4be",
       "DisplayName": "GuilhermeRocha.Test",
       "ColorIndex": 2
+    },
+    "e8cb7fe7-0c48-4ecc-b8fe-a51e79908a1d": {
+      "ProjectGuid": "e8cb7fe7-0c48-4ecc-b8fe-a51e79908a1d",
+      "DisplayName": "GuilhermeRocha.API",
+      "ColorIndex": 3
+    },
+    "5a735cc0-754c-4e9c-a8ce-71998181cdca": {
+      "ProjectGuid": "5a735cc0-754c-4e9c-a8ce-71998181cdca",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
