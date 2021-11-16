@@ -1,3 +1,4 @@
+using GuilhermeRocha.API.Service;
 using GuilhermeRocha.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -46,9 +47,12 @@ namespace GuilhermeRocha.API
                 opt.OutputFormatters.RemoveType<HttpNoContentOutputFormatter>();
             });
 
+            var connection = @"Server=db;Database=GuilhermeDB;User=sa;Password=Your_password123;";
+            var connectionAux = "Server=.\\SQLEXPRESS;Database=GuilhermeDB;Trusted_Connection=True;MultipleActiveResultSets=true;";
+
             services.AddDbContext<GuilhermeContext>(options =>
             {
-                options.UseSqlServer("Server=.\\SQLEXPRESS;Database=GuilhermeDB;Trusted_Connection=True;MultipleActiveResultSets=true;");
+                options.UseSqlServer(connection);
             });
         }
 
@@ -80,6 +84,10 @@ namespace GuilhermeRocha.API
             {
                 endpoints.MapControllers();
             });
+
+
+            // 
+            DatabaseManagementService.MigrationInitialisation(app);
         }
     }
 }

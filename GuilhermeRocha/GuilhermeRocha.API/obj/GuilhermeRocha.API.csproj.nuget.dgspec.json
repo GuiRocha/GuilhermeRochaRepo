@@ -10,14 +10,11 @@
         "projectUniqueName": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.API\\GuilhermeRocha.API.csproj",
         "projectName": "GuilhermeRocha.API",
         "projectPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.API\\GuilhermeRocha.API.csproj",
-        "packagesPath": "C:\\Users\\GuilhermeRocha\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\RochaG2\\.nuget\\packages\\",
         "outputPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\GuilhermeRocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RochaG2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/AnePerf-VDF/_packaging/AnePerf.Libraries/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -103,14 +99,11 @@
         "projectUniqueName": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.Infrastructure\\GuilhermeRocha.Infrastructure.csproj",
         "projectName": "GuilhermeRocha.Infrastructure",
         "projectPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.Infrastructure\\GuilhermeRocha.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\GuilhermeRocha\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\RochaG2\\.nuget\\packages\\",
         "outputPath": "C:\\Work\\GuilhermeRochaRepo\\GuilhermeRocha\\GuilhermeRocha.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\GuilhermeRocha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RochaG2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,8 +111,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/AnePerf-VDF/_packaging/AnePerf.Libraries/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -138,6 +130,12 @@
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0, )"
             },
