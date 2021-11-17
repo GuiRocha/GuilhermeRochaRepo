@@ -47,3 +47,4 @@ C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Infrastructure\bin\Rele
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Infrastructure\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Infrastructure\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Infrastructure\obj\Release\netcoreapp3.1\GuilhermeRocha.Infrastructure.csproj.CopyComplete
+C:\Work\GuilhermeRochaRepo\GuilhermeRocha\GuilhermeRocha.Infrastructure\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

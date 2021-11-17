@@ -47,12 +47,11 @@ namespace GuilhermeRocha.API
                 opt.OutputFormatters.RemoveType<HttpNoContentOutputFormatter>();
             });
 
-            var connection = @"Server=db;Database=GuilhermeDB;User=sa;Password=Your_password123;";
-            var connectionAux = "Server=.\\SQLEXPRESS;Database=GuilhermeDB;Trusted_Connection=True;MultipleActiveResultSets=true;";
+            //var connection = @"Server=db;Database=GuilhermeDB;User=sa;Password=Your_password123;";
 
             services.AddDbContext<GuilhermeContext>(options =>
             {
-                options.UseSqlServer(connection);
+                options.UseSqlServer("Server=.\\SQLEXPRESS;Database=GuilhermeDB;Trusted_Connection=True;MultipleActiveResultSets=true;");
             });
         }
 
@@ -87,7 +86,7 @@ namespace GuilhermeRocha.API
 
 
             // 
-            DatabaseManagementService.MigrationInitialisation(app);
+            //DatabaseManagementService.MigrationInitialisation(app);
         }
     }
 }
